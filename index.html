@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario's Quest!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="sound-jump" src="mario-jump.mp3"></audio>
+    <audio id="sound-coin" src="mario-coin.mp3"></audio>
+
+    <div id="page1" class="container level-1">
+        <div class="mario-block-top"></div>
+        <h1>ITS-A-ME, RAMBO!</h1>
+        <p class="subtitle">HELLO BEBEYOW!</p>
+        <p>Are you free tomorrow, April 8, 2026?</p>
+        <div class="btn-group">
+            <button id="yesBtn" class="mario-btn green-pipe">YES!</button>
+            <button id="noBtn" class="mario-btn red-koopa">NO...</button>
+        </div>
+    </div>
+
+    <div id="page2" class="container level-success hidden">
+        <h1>YOSHIMAN HAPPYMAN! ❤️</h1>
+        <p>Let's-a Go watch the</p>
+        <p class="movie-title">Mario Galaxy Film!</p>
+        <div class="image-wrapper">
+            <img src="yoshi.jpg" alt="Yoshi Movie Poster" class="mario-poster">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
